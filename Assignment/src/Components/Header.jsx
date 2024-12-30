@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "../assets/avatar.jpg";
-import { BsThreeDots } from "react-icons/bs";
+// import { BsThreeDots } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -18,7 +18,7 @@ const Header = () => {
         </select>
         <button className="primary-btn">Log Time</button>
         <button className="header-dots">
-          <BsThreeDots />
+          {/* <BsThreeDots /> */}
         </button>
       </div>
     </div>
