@@ -1,0 +1,70 @@
+.time-tracking-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+    z-index: 1;
+  }
+  
+  .fixed-header-cell {
+    flex: 0 0 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+    position: sticky;
+    left: 0;
+    z-index: 2;
+  }
+  
+  .scrollable-header {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .header-cell {
+    flex: 0 0 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .fixed-cell {
+    flex: 0 0 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    position: sticky;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .scrollable-row {
+    display: flex;
+  }
+  
+  .cell {
+    flex: 0 0 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }

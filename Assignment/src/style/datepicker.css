@@ -1,0 +1,75 @@
+.date-ip {
+  background: #f4f5f7;
+  border-radius: 5px;
+  color: #7a869a;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.date-cont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* align-items: center; */
+  /* gap: 10px; */
+}
+
+.date-label {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #6b778c;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 0.3rem;
+}
+
+.date-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  border-top: 1px solid #F4F5F7;
+  padding-top: 1rem;
+}
+
+.modal-container {
+  position: relative;
+  height: 100%;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f4f5f7;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: start;   
+  gap: 0.5rem; 
+}
+
+.date-inner-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.date-btn {
+  color: #0052cc;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  background: #FFFFFF;
+  border: none !important;
+}

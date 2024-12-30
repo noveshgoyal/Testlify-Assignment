@@ -2,3 +2,107 @@
   font-family: Rubik;
 }
 
+body {
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
+.frame2 {
+  display: flex;
+  align-items: start;
+}
+
+.react-datepicker__triangle {
+  display: none;
+}
+
+.react-datepicker__month-container {
+  background: #ffffff;
+  border: none !important;
+}
+
+.react-datepicker {
+  border: none !important;
+  background: #ffffff;
+}
+
+.react-datepicker__header {
+  background: none !important;
+  border: none !important;
+}
+
+.react-datepicker__current-month {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  text-align: center;
+  color: #172b4d !important;
+}
+
+.react-datepicker__day-names {
+  white-space: nowrap;
+  margin-bottom: -20px;
+  margin-top: 10px;
+}
+
+.react-datepicker__day-name {
+  font-family: Rubik;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  line-height: 16px;
+  text-align: center;
+  width: 2.2rem !important;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #6b778c !important;
+}
+
+.react-datepicker__day {
+  font-family: Rubik;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 20px;
+  text-align: center;
+  /* text-underline-position: from-font; */
+  text-decoration-skip-ink: none;
+  color: #172b4d !important;
+  width: 2.2rem !important;
+  height: 1.9rem !important;
+  align-content: center;
+}
+
+.react-datepicker__day--disabled {
+  color: #6b778c !important;
+}
+
+.react-datepicker__day--in-selecting-range:not(
+    .react-datepicker__day--in-range,
+    .react-datepicker__month-text--in-range,
+    .react-datepicker__quarter-text--in-range,
+    .react-datepicker__year-text--in-range
+  ) {
+  background: none !important;
+}
+
+/* .react-datepicker__day--in-range { */
+
+/* .react-datepicker__day--selected{
+  background: none !important;
+} */
+
+.react-datepicker__day--in-range {
+  background: #deebff !important;
+  color: #172b4d !important;
+}
+
+.react-datepicker__day--selected {
+  background: #42526e !important;
+  border-radius: 4px !important;
+  color: #ffffff !important;
+}
+
+.react-datepicker {
+  margin-top: 1rem;
+}

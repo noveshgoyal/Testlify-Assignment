@@ -9,7 +9,8 @@
   height: 32px;
 }
 
-.primary-btn {
+.primary-btn,
+.secondary-btn {
   background: #0052cc;
   border-radius: 3px;
   font-size: 14px;
@@ -21,6 +22,12 @@
   border: none;
   color: #ffffff;
   height: 32px;
+}
+
+.secondary-btn {
+  background: #ffffff !important;
+  border-radius: 3px;
+  color: #0052cc !important;
 }
 
 .tabs-cont {
@@ -37,29 +44,74 @@
   border: 2px solid #dfe1e6;
 }
 
-.nav-cont{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem;
-    position: relative;
-    border-bottom: 2px solid #EBECF0;
-    box-shadow: 0px 6px 6px -6px #0000001A;
+.nav-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  position: relative;
+  border-bottom: 2px solid #ebecf0;
+  box-shadow: 0px 6px 6px -6px #0000001a;
 }
 
-.flex-box{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.flex-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.sidenav-cont{
-    background: #F4F5F7;
-    border-right: 2px solid #DFE1E6;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    padding: 0.5rem;
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidenav-cont {
+  background: #f4f5f7;
+  height: 85vh;
+  border-right: 2px solid #dfe1e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem;
+}
+
+.header-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.header-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.avatar-name {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.header-dots {
+  border: 1px solid #ebecf0;
+  background: #ffffffcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+}
+
+.header-select {
+  height: 32px;
+  padding: 4px;
+  border: 1px solid #ebecf0;
+  background: #ffffffcc;
 }
